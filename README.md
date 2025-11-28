@@ -13,9 +13,16 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 | server1  | Serveur GlusterFS  | 192.168.56.103  |
 | server2  | Serveur GlusterFS  | 192.168.56.104  |
 | ubuntu   | Client Linux       | 192.168.56.102  |
+---
+# Ubuntu
+<img width="1289" height="534" alt="image" src="https://github.com/user-attachments/assets/3d5d23a0-8d23-409b-ac98-18b023c287bc" />
+# server1
+<img width="1912" height="238" alt="image" src="https://github.com/user-attachments/assets/d12a0661-1c1f-4780-a9bf-68e717a581d5" />
+# server2
+<img width="800" height="486" alt="image" src="https://github.com/user-attachments/assets/53330e5e-a40d-4267-b4a0-8e7aecc8bc7b" />
 
-## 📸 Screenshot : IP des machines  
-`![ip_machines](screenshots/ip_machines.png)`
+
+
 
 ---
 
