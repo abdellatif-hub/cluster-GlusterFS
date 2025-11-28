@@ -17,7 +17,8 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 ---
 # Ubuntu
 <img width="1289" height="534" alt="image" src="https://github.com/user-attachments/assets/3d5d23a0-8d23-409b-ac98-18b023c287bc" />
-...
+
+---
 # Server1
 <img width="1912" height="238" alt="image" src="https://github.com/user-attachments/assets/d12a0661-1c1f-4780-a9bf-68e717a581d5" />
 ...
