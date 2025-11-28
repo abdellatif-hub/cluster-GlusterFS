@@ -7,13 +7,13 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 ---
 
 ## 🧩 1. Architecture du Cluster
-
+```
 | Machine  | Rôle               | Adresse IP      |
 |----------|--------------------|-----------------|
 | server1  | Serveur GlusterFS  | 192.168.56.103  |
 | server2  | Serveur GlusterFS  | 192.168.56.104  |
 | ubuntu   | Client Linux       | 192.168.56.102  |
-
+```
 ---
 # Ubuntu
 <img width="1289" height="534" alt="image" src="https://github.com/user-attachments/assets/3d5d23a0-8d23-409b-ac98-18b023c287bc" />
