@@ -36,8 +36,9 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 À ajouter sur **server1**, **server2**, et **ubuntu** :
 
 
-### 📸 Screenshot : /etc/hosts  
-`![hosts_file](screenshots/hosts_file.png)`
+<img width="824" height="623" alt="image" src="https://github.com/user-attachments/assets/0d2ad03d-db8d-44ea-9f65-5b6c48e970e4" />
+
+<img width="1957" height="430" alt="image" src="https://github.com/user-attachments/assets/00f16597-7c28-4c96-964f-20ce9de1527b" />
 
 ---
 
@@ -53,11 +54,12 @@ systemctl status glusterd
 
 
 ## 🔗 4. Peering : connexion entre server1 et server2
-
+````
 Sur server1 uniquement :
 
 sudo gluster peer probe server2
 sudo gluster peer status
+````
 
 ## 📸 Screenshot : peer status
 
