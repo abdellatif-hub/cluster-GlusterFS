@@ -14,7 +14,7 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 | server2  | Serveur GlusterFS  | 192.168.56.104  |
 | ubuntu   | Client Linux       | 192.168.56.102  |
 
-### 📸 Screenshot : IP des machines  
+## 📸 Screenshot : IP des machines  
 `![ip_machines](screenshots/ip_machines.png)`
 
 ---
@@ -39,7 +39,7 @@ systemctl status glusterd
 📸 Screenshot : installation GlusterFS
 
 ![install_glusterfs](screenshots/install_glusterfs.png)
----
+````
 ## 🔗 4. Peering : connexion entre server1 et server2
 
 Sur server1 uniquement :
@@ -47,7 +47,7 @@ Sur server1 uniquement :
 sudo gluster peer probe server2
 sudo gluster peer status
 
-📸 Screenshot : peer status
+## 📸 Screenshot : peer status
 
 ![peer_status](screenshots/peer_status.png)
 
@@ -69,7 +69,7 @@ force
 sudo gluster volume start voldata
 gluster volume info
 
-📸 Screenshot : volume info
+## 📸 Screenshot : volume info
 
 ![volume_info](screenshots/volume_info.png)
 
@@ -85,7 +85,7 @@ sudo mount -t glusterfs server1:/voldata /mnt/voldata
 ✔️ Vérification :
 df -h | grep voldata
 
-📸 Screenshot : volume monté
+## 📸 Screenshot : volume monté
 
 ![mount_volume](screenshots/mount_volume.png)
 
@@ -99,7 +99,7 @@ cat /gluster/brick1/test.txt
 ✔️ Vérifier sur server2
 cat /gluster/brick1/test.txt
 
-📸 Screenshots : test de réplication
+## 📸 Screenshots : test de réplication
 
 ![client_test](screenshots/client_test.png)
 
@@ -120,6 +120,6 @@ cat /mnt/voldata/test.txt
 ✔️ Redémarrer server2
 sudo systemctl start glusterd
 
-📸 Screenshot : test de panne
+## 📸 Screenshot : test de panne
 
 ![failover_test](screenshots/failover_test.png)
