@@ -104,6 +104,7 @@ sudo mkdir /mnt/voldata
 
 <img width="1465" height="158" alt="image" src="https://github.com/user-attachments/assets/f1f89d58-a0bd-4de6-8096-a3cf1304584b" />
 
+***
 
 ````
 sudo mount -t glusterfs server1:/voldata /mnt/voldata
