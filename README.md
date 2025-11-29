@@ -72,10 +72,10 @@ sudo gluster peer status
 
 
 ## 🧱 5. Création du volume répliqué (Replica 2)
-
+````
 ✔️ Créer un brick sur server1 et server2
 sudo mkdir -p /gluster/brick1
-
+````
 
 <img width="1931" height="83" alt="image" src="https://github.com/user-attachments/assets/34fc6fae-ac43-4345-8d17-379da03a9ca3" />
 
