@@ -20,11 +20,12 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 
 
 ## Server1
-<img width="1912" height="238" alt="image" src="https://github.com/user-attachments/assets/d12a0661-1c1f-4780-a9bf-68e717a581d5" />
+<img width="1937" height="404" alt="image" src="https://github.com/user-attachments/assets/23f28c33-a7ed-4d93-b08f-2b28cb522430" />
 
 
 ## Server2
-<img width="800" height="486" alt="image" src="https://github.com/user-attachments/assets/53330e5e-a40d-4267-b4a0-8e7aecc8bc7b" />
+<img width="804" height="438" alt="image" src="https://github.com/user-attachments/assets/fe67e904-192f-4993-9926-bfc4f87ef431" />
+
 
 
 
@@ -36,9 +37,8 @@ L’objectif est d’installer GlusterFS, créer un volume répliqué, le monter
 À ajouter sur **server1**, **server2**, et **ubuntu** :
 
 
-<img width="824" height="623" alt="image" src="https://github.com/user-attachments/assets/0d2ad03d-db8d-44ea-9f65-5b6c48e970e4" />
+<img width="1539" height="1074" alt="image" src="https://github.com/user-attachments/assets/bc8cdffa-6dca-418f-9b37-c3415cc4c5a0" />
 
-<img width="1957" height="430" alt="image" src="https://github.com/user-attachments/assets/00f16597-7c28-4c96-964f-20ce9de1527b" />
 
 ---
 
@@ -61,9 +61,8 @@ sudo gluster peer probe server2
 sudo gluster peer status
 ````
 
-## 📸 Screenshot : peer status
+<img width="1944" height="239" alt="image" src="https://github.com/user-attachments/assets/379ac140-8bb2-434f-af4d-080cdc79b882" />
 
-![peer_status](screenshots/peer_status.png)
 
 
 
