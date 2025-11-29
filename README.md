@@ -78,7 +78,8 @@ sudo mkdir -p /gluster/brick1
 ````
 
 <img width="1931" height="83" alt="image" src="https://github.com/user-attachments/assets/34fc6fae-ac43-4345-8d17-379da03a9ca3" />
-...
+
+***
 
 ````
 ✔️ Créer le volume répliqué sur server1
