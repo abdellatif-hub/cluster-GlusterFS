@@ -150,6 +150,11 @@ cat /gluster/brick1/test.txt
 <img width="850" height="78" alt="image" src="https://github.com/user-attachments/assets/b0c10d83-6558-4b6d-abe2-023ca6913771" />
 
 ***
+➡️ Tu dois voir le même fichier des deux côtés
+➡️ C’est la réplication GlusterFS (Replica 2)
+
+
+
 
 ## ✅ Conclusion 
 
