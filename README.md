@@ -81,7 +81,6 @@ sudo mkdir -p /gluster/brick1
 ````
 ✔️ Créer le volume répliqué sur server1
 sudo gluster volume create voldata replica 2 server1:/gluster/brick1 server2:/gluster/brick1 force
-
 ✔️ Démarrer le volume
 sudo gluster volume start voldata
 gluster volume info
