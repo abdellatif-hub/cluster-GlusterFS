@@ -91,47 +91,64 @@ gluster volume info
 
 <img width="1948" height="382" alt="image" src="https://github.com/user-attachments/assets/548cc694-ffc2-434e-b7d9-04641e8c1191" />
 
+***
 
 ## 📂 6. Montage du volume sur le client ubuntu
-
+````
 Sur ubuntu :
 
 sudo apt update -y
 sudo apt install glusterfs-client -y
 sudo mkdir /mnt/voldata
+````
 
 <img width="1465" height="158" alt="image" src="https://github.com/user-attachments/assets/f1f89d58-a0bd-4de6-8096-a3cf1304584b" />
 
+
+````
 sudo mount -t glusterfs server1:/voldata /mnt/voldata
 
 ✔️ Vérification :
 df -h | grep voldata
+````
+
 
 <img width="1570" height="201" alt="image" src="https://github.com/user-attachments/assets/46578ead-b25e-4056-b60e-af83407fb597" />
 
+***
 
 ## 🔁 7. Test de réplication
 
+````
 ✔️ Sur le client (ubuntu)
 echo "test replication glusterfs" | sudo tee /mnt/voldata/test.txt
+````
 
 <img width="1548" height="431" alt="image" src="https://github.com/user-attachments/assets/e878ff62-48ba-48f5-ab61-41b5aa72196d" />
 
 
+***
 
+````
 ✔️ Vérifier sur server1
 cat /gluster/brick1/test.txt
+````
+
 
 <img width="1956" height="70" alt="image" src="https://github.com/user-attachments/assets/d8320cdd-58d7-468b-af08-d8eaf3e40324" />
 
 
+***
 
-
+````
 ✔️ Vérifier sur server2
 cat /gluster/brick1/test.txt
+````
+
 
 <img width="850" height="78" alt="image" src="https://github.com/user-attachments/assets/b0c10d83-6558-4b6d-abe2-023ca6913771" />
 
+***
 
 ## ✅ Conclusion 
 
